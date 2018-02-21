@@ -23,10 +23,11 @@ class YelpList extends React.Component {
         term: this.state.serviceQuery
       }
     })
-    .then(function(response){
+    .then(function(response) {
       this.setState({
         YelpList: response
       })
+
     })
   }
 
